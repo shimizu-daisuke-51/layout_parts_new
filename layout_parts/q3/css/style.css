@@ -2,4 +2,40 @@
 
 /* 回答はここに書いてね */
 
+.chart {
+  width: 100%;
+  border: 1px solid #dedede;
+  table-layout: fixed;
+}
+
+th {
+  background-color: #2244aa;
+  font-size: 18px;
+  line-height: 26px;
+  color: white;
+  padding: 10px;
+  border: 1px solid #dedede;
+  vertical-align: middle;
+}
+
+td {
+  font-size: 16px;
+  line-height: 22px;
+  padding: 10px;
+  border: 1px solid #dedede;
+  text-align: center;
+}
+
+tr:first-child {
+  margin-top: 10px;
+}
+
+tbody:nth-child(2n+1) {
+  background-color: #ecf1f2;
+}
+
+tbody:last-child {
+  border-top: 2px dashed #000;
+}
+
 /* 回答はここに書いてね */
