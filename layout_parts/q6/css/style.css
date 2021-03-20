@@ -48,11 +48,11 @@
   padding: 10px;
 }
 
-.q6__box.is-stable {
+.q6-box-position-left {
   position: relative;
 }
 
-.q6__box.is-stable>.q6__box__inner {
+.q6-box-position-left>.q6-in-box {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -62,11 +62,11 @@
   background-color: #e6f2ff;
 }
 
-.q6__box.is-flexible {
+.q6-box-position-right {
   position: relative;
 }
 
-.q6__box.is-flexible>.q6__box__inner {
+.q6-box-position-right>.q6-in-box {
   position: absolute;
   top: 50%;
   left: 50%;

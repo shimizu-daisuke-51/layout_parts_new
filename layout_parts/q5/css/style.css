@@ -2,7 +2,7 @@
 
 /* 回答はここに書いてね */ 
 
-.q5 {
+.q5-box {
   width: 500px;
   height: 500px;
   position: relative;
@@ -10,95 +10,70 @@
   background-color: #ecf1f2;
 }
 
-.box1 {
+.q5-box div {
+  position: absolute;
+  text-align: center;
   width: 100px;
   line-height: 100px;
+}
+
+.in-box1 {
   top: 40px;
   left: 200px;
-  position: absolute;
   background-color: #efefd3;
-  text-align: center;
   z-index: 1;
 }
 
-.box2 {
-  width: 100px;
-  line-height: 100px;
+.in-box2 {
   top: 120px;
   right: 120px;
-  position: absolute;
   background-color: #7083de;
-  text-align: center;
   z-index: 2;
 }
 
-.box3 {
-  width: 100px;
-  line-height: 100px;
+.in-box3 {
   top: 200px;
   right: 40px;
-  position: absolute;
   background-color: #d0ecea;
-  text-align: center;
   z-index: 3;
 }
 
-.box4 {
-  width: 100px;
-  line-height: 100px;
+.in-box4 {
   bottom: 120px;
   right: 120px;
-  position: absolute;
   background-color: #8b7a5e;
-  text-align: center;
   z-index: 4;
 }
 
-.box5 {
-  width: 100px;
-  line-height: 100px;
+.in-box5 {
   bottom: 40px;
   left: 200px;
-  position: absolute;
   background-color: #9fd6d2;
-  text-align: center;
   z-index: 5;
 }
 
-.box6 {
-  width: 100px;
-  line-height: 100px;
+.in-box6 {
   bottom: 120px;
   left: 120px;
-  position: absolute;
   background-color: #fffee4;
-  text-align: center;
   z-index: 6;
 }
 
-.box7 {
-  width: 100px;
-  line-height: 100px;
+.in-box7 {
   top: 200px;
   left: 40px;
-  position: absolute;
   background-color: #deae70;
-  text-align: center;
   z-index: 7;
 }
 
-.box8 {
-  width: 100px;
-  line-height: 100px;
+.in-box8 {
   top: 120px;
   left: 120px;
-  position: absolute;
   background-color: #de70cf;
-  text-align: center;
   z-index: 8;
 }
 
-.box8::before {
+.in-box8::before {
   display: block;
   content: "";
   position: absolute;
@@ -108,15 +83,15 @@
   background-color: #efefd3;
 }
 
-.box9 {
-  width: 100px;
-  line-height: 100px;
+.in-box9 {
   top: 10px;
   left: 10px;
-  position: absolute;
+  position: fixed;
   background-color: #2b69a3;
-  text-align: center;
   z-index: 10;
+  text-align: center;
+  width: 100px;
+  line-height: 100px;
 }
 
 /* 回答はここに書いてね */

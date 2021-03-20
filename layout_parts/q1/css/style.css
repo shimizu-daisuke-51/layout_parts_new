@@ -8,7 +8,7 @@
   clear: both;
 }
 
-.q1 {
+.q1-box {
   width: 940px;
   margin: 0 auto;
   padding: 20px;
@@ -34,7 +34,7 @@
   background-color: #eaf4ff;
 }
 
-.p {
+.p-text {
   font-size: 16px;
   line-height: 16px;
 }

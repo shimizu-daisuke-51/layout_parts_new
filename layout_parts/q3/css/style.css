@@ -8,7 +8,7 @@
   table-layout: fixed;
 }
 
-th {
+.chart th {
   background-color: #2244aa;
   font-size: 18px;
   line-height: 26px;
@@ -18,7 +18,7 @@ th {
   vertical-align: middle;
 }
 
-td {
+.chart td {
   font-size: 16px;
   line-height: 22px;
   padding: 10px;
@@ -26,15 +26,21 @@ td {
   text-align: center;
 }
 
-tr:first-child {
+.chart th , .chart td {
+  padding: 10px;
+  border: 1px solid #dedede;
+  vertical-align: middle;
+}
+
+.chart thead:first-child {
   margin-top: 10px;
 }
 
-tbody:nth-child(2n+1) {
+.chart tbody:nth-child(2n+1) {
   background-color: #ecf1f2;
 }
 
-tbody:last-child {
+.chart tbody:last-child {
   border-top: 2px dashed #000;
 }
 
